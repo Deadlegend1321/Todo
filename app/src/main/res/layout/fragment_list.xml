@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/listLayout"
     tools:context=".fragments.list.ListFragment">
 
 
@@ -37,6 +38,7 @@
         android:layout_width="108dp"
         android:layout_height="73dp"
         android:alpha="0.5"
+        android:visibility="invisible"
         android:src="@drawable/ic_no_data"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,6 +54,7 @@
         android:text="No Data"
         android:textSize="16sp"
         android:alpha="0.5"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/no_data_imageView" />
